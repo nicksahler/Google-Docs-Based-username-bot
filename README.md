@@ -2,9 +2,10 @@ Google-Docs-Based-username-bot
 ==============================
 
 A simple Rails app that checks a Google Spreadsheet's username field to see if it contains the username from a given pull request
+This is literally pulled right out of discourse's main instance. I made some changes afterward without testing, so there may be a bug or two. Feel free to message me if you find any
 
-To install: 
-==============================
+
+## To install: 
 1) Add to your gemfile:
   gem 'gdata', git: 'http://github.com/agentrock/gdata.git'
   gem 'octokit', git: 'https://github.com/pengwynn/octokit'
